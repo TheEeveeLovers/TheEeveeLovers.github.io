@@ -1,5 +1,6 @@
 html {
    background-image: linear-gradient(rgba(94, 27, 166, 1), rgba(136, 54, 224, 1));
+   background-size: cover;
 }
 body {
   font-family: sans-serif;

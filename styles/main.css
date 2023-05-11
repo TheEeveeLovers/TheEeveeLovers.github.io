@@ -1,5 +1,6 @@
 html {
-   background-image: linear-gradient(rgba(94, 27, 166, 1), rgba(136, 54, 224, 1));
+   background-color: #8836e0;
+   background-image: linear-gradient(#5e1ba6, #8836e0);
    background-size: cover;
    background-repeat: no-repeat;
 }

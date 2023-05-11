@@ -9,10 +9,8 @@ body {
   font-family: sans-serif;
 }
 a {
-   color: #CB82FC;
-}
-a {
-   color: #CB82FC;
+   /*color: #CB82FC;*/
+   color: #82F1FC;
 }
 a:hover {
    color: #82FC91;

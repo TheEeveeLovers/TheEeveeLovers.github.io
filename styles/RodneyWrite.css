@@ -1,0 +1,14 @@
+    @font-face {
+    font-family: 'RodneyWrite Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('RodneyWrite Regular'), url('RodneyWrite.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'RodneyWrite Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('RodneyWrite Bold'), url('RodneyWriteBold.woff') format('woff');
+    }

@@ -1,0 +1,45 @@
+.setup {
+     background-image: url('aboutme-assets/750ti.png');
+     background-color: rgba(64,127,0,1);
+     background-repeat: no-repeat;
+     background-attachment: local;
+     background-size: 20%;
+     background-position-x: center;
+     text-shadow: 1px 1px 1px black;
+}
+@media screen and (max-width: 1100px) {
+    .setup {
+        background-image: url('aboutme-assets/750ti.png');
+        background-size: 30%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .setup {
+        background-image: url('aboutme-assets/750ti.png');
+        background-size: 35%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .setup {
+        background-image: url('aboutme-assets/750ti.png');
+        background-size: 40%;
+    }
+}
+@media screen and (max-width: 700px) {
+    .setup {
+        background-image: url('aboutme-assets/750ti.png');
+        background-size: 50%;
+    }
+}
+@media screen and (max-width: 650px) {
+    .setup {
+        background-image: url('aboutme-assets/750ti-thumb.png');
+        background-size: 60%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .setup {
+        background-image: url('aboutme-assets/750ti-thumb.png');
+        background-size: 70%;
+    }
+}

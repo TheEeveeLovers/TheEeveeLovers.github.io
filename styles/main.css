@@ -88,3 +88,7 @@ nav ul:hover {
    padding-bottom: 2em;
    text-shadow: 2px 2px 5px #b182fc;
  }
+
+.underline {
+   text-decoration: underline;
+}

@@ -1,3 +1,7 @@
+:root {
+   --nav-link-color: #111111;
+}
+
 html {
    background-color: #8836e0;
    color: #FFFFFF;
@@ -34,11 +38,13 @@ nav ul {
       border-radius: 0.25em;
       padding: 16px;
       box-shadow: 0.25em 0.25em 0.125em rgba(22,55,44,0.5);
+      --nav-link-color: #111111;
       transition: opacity 0.2s;
       transition-timing-function: ease-in;
  }
 
 nav ul:hover {
+   --nav-link-color: #82F1FC;
    opacity: 1;
 }
 
@@ -62,15 +68,23 @@ nav ul:hover {
 
  nav ul li a {
    text-decoration: underline;
-   color: #111111
+   color: var(--nav-link-color);
  }
 
  nav ul li a:hover {
-   color: #82F1FC;
+   color: #82FC91;
  }
 
  .title {
    text-decoration: underline overline;
    padding-top: 0.5em;
-   padding-bottom: 1em
+   padding-bottom: 1em;
+   text-shadow: 2px 2px 5px #b182fc;
+   text-align: center;
+ }
+
+ .sitetitle {
+   padding-top: 0.5em;
+   padding-bottom: 2em;
+   text-shadow: 2px 2px 5px #b182fc;
  }

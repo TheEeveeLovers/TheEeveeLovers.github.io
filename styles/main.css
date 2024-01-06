@@ -11,7 +11,66 @@ body {
 a {
    /*color: #CB82FC;*/
    color: #82F1FC;
+   transition: color 140ms;
+   transition-timing-function: ease-out;
 }
 a:hover {
    color: #82FC91;
+   transition: color 240ms;
+   transition-timing-function: ease-in;
 }
+a:active {
+   color: #fcbd82;
+   transition: color 100ms;
+   transition-timing-function: ease-in-out;
+}
+   
+
+nav ul {
+      list-style-type: none;
+      background-color: #863452;
+      opacity: 0.5;
+      border: 0.24em solid #111310;
+      border-radius: 0.25em;
+      padding: 16px;
+      box-shadow: 0.25em 0.25em 0.125em rgba(22,55,44,0.5);
+      transition: opacity 0.2s;
+      transition-timing-function: ease-in;
+ }
+
+nav ul:hover {
+   opacity: 1;
+}
+
+ nav ul li {
+   display: inline;
+   border-right: 0.14em solid #131313;
+   padding-left: 0.5em;
+   padding-right: 0.5em;
+ }
+
+ nav ul li:first-child {
+   display: inline;
+   padding-right: 0.5em;
+   border-right: 0.14em solid #131313;
+   padding-left: 0.5em;
+ }
+
+ nav ul li:last-child {
+   border-right: none;
+ }
+
+ nav ul li a {
+   text-decoration: underline;
+   color: #111111
+ }
+
+ nav ul li a:hover {
+   color: #82F1FC;
+ }
+
+ .title {
+   text-decoration: underline overline;
+   padding-top: 0.5em;
+   padding-bottom: 1em
+ }

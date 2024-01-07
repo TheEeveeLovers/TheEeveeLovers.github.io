@@ -1,11 +1,17 @@
 .setup {
      background-image: url('aboutme-assets/750ti.png');
-     background-color: rgba(64,127,0,1);
+     background-color: #407f00;
      background-repeat: no-repeat;
      background-attachment: local;
      background-size: 20%;
      background-position-x: center;
      text-shadow: 1px 1px 1px black;
+}
+@media screen and (max-width: 1200px) {
+    .setup {
+        background-image: url('aboutme-assets/750ti.png');
+        background-size: 25%;
+    }
 }
 @media screen and (max-width: 1100px) {
     .setup {
@@ -34,12 +40,18 @@
 @media screen and (max-width: 650px) {
     .setup {
         background-image: url('aboutme-assets/750ti-thumb.png');
-        background-size: 60%;
+        background-size: 55%;
     }
 }
 @media screen and (max-width: 400px) {
     .setup {
         background-image: url('aboutme-assets/750ti-thumb.png');
         background-size: 70%;
+    }
+}
+@media screen and (max-width: 300px) {
+    .setup {
+        background-image: url('aboutme-assets/750ti-thumb.png');
+        background-size: 80%;
     }
 }

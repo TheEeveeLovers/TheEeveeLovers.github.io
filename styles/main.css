@@ -10,7 +10,7 @@ html {
    background-color: #8836e0;
    color: #FFFFFF;
    background-image: linear-gradient(#5e1ba6, #8836e0);
-   background-repeat: no-repeat;
+   background-repeat: repeat-x;
    background-size: cover;
 }
 body {
@@ -33,11 +33,15 @@ a:active {
    transition-timing-function: ease-in-out;
 }
    
-
+nav {
+   position: sticky;
+   top: 1px;
+   padding-bottom: 4px;
+}
 nav ul {
       list-style-type: none;
       background-color: #863452;
-      opacity: 0.5;
+      opacity: 0.25;
       border: 0.24em solid #111310;
       border-radius: 0.25em;
       padding: 16px;
@@ -125,19 +129,20 @@ footer {
    }
 }
 
+
 /* Responsive layout - when the screen is less than 800px wide */
 @media screen and (max-width: 800px) {
    nav ul li {
-      display:block;
-      list-style-type:disc !important;
-      border-right: none !important;
+      display:inline;
+      border-right: 0.24em solid #131313;
    }
  }
  
  /* Responsive layout - when the screen is less than 400px wide */
  @media screen and (max-width: 400px) {
    nav ul li {
-      display: inline;
+      display: block;
+      border-right: none !important;
       list-style-type: none;
    }
  }

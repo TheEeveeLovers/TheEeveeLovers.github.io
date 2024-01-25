@@ -11,6 +11,7 @@
     background-image: url('aboutme-assets/smedia.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    text-shadow: 1px 1px 1px black;
 }
 @media screen and (max-width: 1200px) {
     .setup {

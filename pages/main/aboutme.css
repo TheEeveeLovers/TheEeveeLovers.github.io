@@ -7,12 +7,38 @@
      background-position-x: center;
      text-shadow: 1px 1px 1px black;
 }
+.setup h2 {
+    margin-left: 0.5em;
+}
+.setup p {
+    margin-left: 1em;
+}
 .socialmed {
     background-image: url('aboutme-assets/smedia.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 1px 1px 3px black;
 }
+.iconrow {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 9px;
+}
+.iconrow a {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 4.5em;
+}
+.textrow {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 9px 4.5em 9px 9px;
+}
+
+
+
+
+
 @media screen and (max-width: 1200px) {
     .setup {
         background-image: url('aboutme-assets/750ti.png');

@@ -47,13 +47,16 @@ nav ul {
       padding: 16px;
       box-shadow: 0.25em 0.25em 0.125em rgba(22,55,44,0.5);
       --nav-link-color: #FFFFFF;
-      transition: opacity 0.2s;
+      transition: opacity 0.2s, padding 0.2s;
       transition-timing-function: ease-in;
  }
 
 nav ul:hover {
    --nav-link-color: var(--inactive-link-color);
    opacity: 1;
+   padding: 32px;
+   transition: opacity 0.2s, padding 0.2s;
+   transition-timing-function: ease-in;
 }
 
  nav ul li {

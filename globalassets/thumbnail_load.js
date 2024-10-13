@@ -15,4 +15,4 @@
           item.style.backgroundImage = `url(${item.dataset.src})`;
       };
     });
-  })();
+})();
